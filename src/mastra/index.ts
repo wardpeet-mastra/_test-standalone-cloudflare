@@ -12,6 +12,7 @@ export const mastra = new Mastra({
     level: "info"
   }),
   deployer: new CloudflareDeployer({
+    projectName: "test-standalone-cloudflare-workers",
     scope: "a38ed3b8625e5f1e0b41e2c1c5aab2ff", // from the browsers address bar
     auth: {
       apiToken: process.env.CLOUDFLARE_API_TOKEN!,
