@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "mastra dev",
     "build": "mastra build",
-    "start": "mastra start"
+    "start": "mastra start",
+    "postinstall": "patch-package"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@types/node": "^24.0.13",
     "mastra": "^0.10.12",
+    "patch-package": "^8.0.0",
     "typescript": "^5.8.3"
   },
   "optionalDependencies": {

@@ -1,0 +1,14 @@
+diff --git a/node_modules/@mastra/deployer/dist/chunk-GPD54HBC.js b/node_modules/@mastra/deployer/dist/chunk-GPD54HBC.js
+index 3781019..833b028 100644
+--- a/node_modules/@mastra/deployer/dist/chunk-GPD54HBC.js
++++ b/node_modules/@mastra/deployer/dist/chunk-GPD54HBC.js
+@@ -176,7 +176,8 @@ ${Object.entries(config.supportedArchitectures).map(([key, value]) => `  ${key}:
+       root: dir
+     });
+     const env = {
+-      PATH: process.env.PATH
++      PATH: process.env.PATH,
++      HOME: process.env.HOME,
+     };
+     if (process.env.npm_config_registry) {
+       env.npm_config_registry = process.env.npm_config_registry;
